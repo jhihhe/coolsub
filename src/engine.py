@@ -32,9 +32,10 @@ def process_subtitle(input_path, style_key="immersive_serif"):
         subs.info["PlayResY"] = 1080
         
         # Create new ASS style
-        # Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
         new_style = pysubs2.SSAStyle()
-        new_style.fontname = style_config.font_name
+        # Ensure fontname is a single string and handle potential fallback
+        font_name = style_config.font_name.split(",")[0].strip()
+        new_style.fontname = font_name
         new_style.fontsize = style_config.font_size
         def parse_ass_color(color_str):
             # &HAABBGGRR or &HBBGGRR

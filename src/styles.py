@@ -33,7 +33,7 @@ class SubtitleStyle:
 STYLES = {
     "immersive_serif": SubtitleStyle(
         name="沉浸宋体 (Immersive Serif)",
-        font_name="Source Han Serif SC, 思源宋体 SC, Songti SC",
+        font_name="Source Han Serif SC",
         font_size=60,
         primary_color="&H00E8E8E8", # 柔和灰白
         outline_color="&H00000000",
@@ -44,7 +44,7 @@ STYLES = {
     ),
     "modern_minimal": SubtitleStyle(
         name="现代极简 (Modern Minimalist)",
-        font_name="PingFang SC, 微软雅黑, sans-serif",
+        font_name="PingFang SC",
         font_size=54,
         primary_color="&H00FFFFFF",
         outline_color="&H40000000", # 半透明描边
@@ -56,7 +56,7 @@ STYLES = {
     ),
     "classic_cinema": SubtitleStyle(
         name="经典影院 (Classic Cinematic)",
-        font_name="Heiti SC, 黑体",
+        font_name="Heiti SC",
         font_size=66,
         primary_color="&H0000E6FF", # 经典电影淡黄
         outline_color="&H00000000",
@@ -67,7 +67,7 @@ STYLES = {
     ),
     "netflix_orange": SubtitleStyle(
         name="网飞橙 (Netflix Orange)",
-        font_name="PingFang SC, Helvetica, sans-serif",
+        font_name="PingFang SC",
         font_size=60,
         primary_color="&H000088FF", # Netflix Orange
         outline_color="&H00000000",
@@ -79,7 +79,7 @@ STYLES = {
     ),
     "doc_yellow": SubtitleStyle(
         name="纪实金黄 (Documentary Yellow)",
-        font_name="Source Han Sans SC, 思源黑体 SC",
+        font_name="Source Han Sans SC",
         font_size=57,
         primary_color="&H0000CCFF", # 经典纪录片黄
         outline_color="&H00000000",
@@ -90,7 +90,7 @@ STYLES = {
     ),
     "midnight_ghost": SubtitleStyle(
         name="深夜幽灵 (Midnight Ghost)",
-        font_name="Source Han Serif SC, 思源宋体 SC",
+        font_name="Source Han Serif SC",
         font_size=63,
         primary_color="&H00DB7093", # 淡淡的紫色
         outline_color="&H00330033",
