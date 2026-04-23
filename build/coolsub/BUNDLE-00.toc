@@ -1,3 +1,0 @@
-([('coolsub',
-   '/Users/mac/Pictures/工作/其他/trae_sub/dist/coolsub',
-   'EXECUTABLE')],)

@@ -27,6 +27,10 @@ def process_subtitle(input_path, style_key="immersive_serif"):
         # Get style configuration
         style_config = STYLES.get(style_key, STYLES["immersive_serif"])
         
+        # Set standard canvas resolution for consistent rendering
+        subs.info["PlayResX"] = 1920
+        subs.info["PlayResY"] = 1080
+        
         # Create new ASS style
         # Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
         new_style = pysubs2.SSAStyle()
