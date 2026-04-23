@@ -14,6 +14,8 @@
   <p>
     <a href="README.md">简体中文</a> | <b>English</b>
   </p>
+
+  <img src="https://raw.githubusercontent.com/jhihhe/coolsub/main/docs/demo.png" width="100%" alt="coolsub demo">
 </div>
 
 ---
