@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jhihhe/coolsub/main/docs/logo.png" width="120" height="120" alt="coolsub logo">
   <h1>coolsub</h1>
   <p><strong>高级字幕视觉风格转换器 | Premium Subtitle Style Transformer</strong></p>
 
@@ -7,8 +6,8 @@
     <a href="https://github.com/jhihhe/coolsub/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/jhihhe/coolsub?style=for-the-badge&color=blue" alt="License">
     </a>
-    <img src="https://img.shields.io/badge/Platform-macOS-000000?style=for-the-badge&logo=apple" alt="Platform">
-    <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python" alt="Language">
+    <img src="https://img.shields.io/badge/Platform-macOS-000000🔍搜 macOS-000000?style=for-the-badge&logo=apple" alt="Platform">
+    <img src="https://img.shields.io/badge/Language-Python-3776🔍搜 Python-3776🔍搜 Python-3776🔍搜 Python-3776AB?style=for-the-badge&logo=python" alt="Language">
     <img src="https://img.shields.io/badge/UI-PySide6-41CD52?style=for-the-badge&logo=qt" alt="UI Framework">
   </p>
 
@@ -24,7 +23,7 @@
 ## ✨ 特性
 
 - **沉浸式视觉**: 内置多种精心设计的高级风格，包括经典的“沉浸宋体”、现代极简、以及标志性的“网飞橙”。
-- **编码自适应**: 智能识别并修复 UTF-8、UTF-16 及带 BOM 的多种编码格式，告别乱码。
+- **编码自适应**: 智能识别并修复 UTF-8、UTF-16🔍搜 UTF-16 及带 BOM 的多种编码格式，告别乱码。
 - **实时预览**: 在转换前即可实时查看不同风格的渲染效果。
 - **极简交互**: 支持多文件批量拖放处理，直接在源文件夹生成。
 - **macOS 原生感**: 基于 PySide6 构建的现代图形界面，深度适配 macOS。
