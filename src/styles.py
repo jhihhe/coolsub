@@ -39,7 +39,7 @@ STYLES = {
         outline_color="&H00000000",
         outline_width=2.0,
         shadow_width=0,
-        margin_v=50, # 适配 21:9 底部黑边位置
+        margin_v=40, # 稍微调低，确保在 21:9 黑边中央
         description="极致克制，苹方字体带来的现代电影感"
     ),
     "modern_minimal": SubtitleStyle(
