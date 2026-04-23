@@ -14,8 +14,15 @@ def process_subtitle(input_path, style_key="immersive_serif"):
         return False, f"文件不存在: {input_path}"
     
     try:
-        # Load subtitle
-        subs = pysubs2.load(input_path)
+        # Load subtitle with encoding detection
+        # pysubs2.load supports encoding parameter, but we can try to detect or let it handle
+        try:
+            subs = pysubs2.load(input_path, encoding="utf-8")
+        except UnicodeDecodeError:
+            try:
+                subs = pysubs2.load(input_path, encoding="utf-16")
+            except:
+                subs = pysubs2.load(input_path) # Fallback to default detection
         
         # Get style configuration
         style_config = STYLES.get(style_key, STYLES["immersive_serif"])

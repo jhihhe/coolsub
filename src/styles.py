@@ -65,29 +65,17 @@ STYLES = {
         margin_v=35,
         description="怀旧复古，浓郁的胶片电影氛围"
     ),
-    "dynamic_neon": SubtitleStyle(
-        name="赛博霓虹 (Cyber Neon)",
-        font_name="PingFang SC, sans-serif",
-        font_size=20,
-        primary_color="&H00FF00FF", # 霓虹粉
-        outline_color="&H00FFFF00", # 霓虹青
-        outline_width=2.0,
-        shadow_width=2.0,
-        bold=True,
-        margin_v=45,
-        description="个性张扬，适合科幻或短视频风格"
-    ),
     "netflix_orange": SubtitleStyle(
         name="网飞橙 (Netflix Orange)",
         font_name="PingFang SC, Helvetica, sans-serif",
         font_size=20,
-        primary_color="&H001409E5", # Netflix Red/Orange
+        primary_color="&H000088FF", # Netflix Orange (BBGGRR: 00 88 FF -> RGB: FF 88 00)
         outline_color="&H00000000",
         outline_width=1.2,
         shadow_width=0,
         bold=True,
         margin_v=45,
-        description="Netflix 标志性橙红，高辨识度与现代感"
+        description="Netflix 标志性橙色，高辨识度与现代感"
     ),
     "doc_yellow": SubtitleStyle(
         name="纪实金黄 (Documentary Yellow)",
