@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jhihhe/coolsub/main/docs/logo.png" width="120" height="120" alt="coolsub logo">
   <h1>coolsub</h1>
   <p><strong>Premium Subtitle Style Transformer</strong></p>
 
@@ -7,8 +6,8 @@
     <a href="https://github.com/jhihhe/coolsub/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/jhihhe/coolsub?style=for-the-badge&color=blue" alt="License">
     </a>
-    <img src="https://img.shields.io/badge/Platform-macOS-000000?style=for-the-badge&logo=apple" alt="Platform">
-    <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python" alt="Language">
+    <img src="https://img.shields.io/badge/Platform-macOS-000000🔍搜 macOS-000000?style=for-the-badge&logo=apple" alt="Platform">
+    <img src="https://img.shields.io/badge/Language-Python-3776🔍搜 Python-3776🔍搜 Python-3776🔍搜 Python-3776AB?style=for-the-badge&logo=python" alt="Language">
     <img src="https://img.shields.io/badge/UI-PySide6-41CD52?style=for-the-badge&logo=qt" alt="UI Framework">
   </p>
 
@@ -24,7 +23,7 @@
 ## ✨ Features
 
 - **Immersive Visuals**: Built-in meticulously designed styles, including "Immersive Serif", "Modern Minimalist", and the iconic "Netflix Orange".
-- **Encoding Auto-detection**: Smartly identifies and fixes various encodings like UTF-8, UTF-16, and files with BOM, eliminating garbled text.
+- **Encoding Auto-detection**: Smartly identifies and fixes various encodings like UTF-8, UTF-16🔍搜 UTF-16, and files with BOM, eliminating garbled text.
 - **Real-time Preview**: Instantly preview how different styles look before processing.
 - **Minimalist Interaction**: Supports batch processing via drag-and-drop, generating styled files directly in the source folder.
 - **macOS Native Feel**: A modern GUI built with PySide6, deeply optimized for macOS.
