@@ -14,7 +14,7 @@ def build():
         entry_point,
         '--name=%s' % app_name,
         '--windowed',        # No console for macOS .app
-        '--onefile',         # Bundle into a single executable (or directory)
+        '--onedir',          # Use onedir for better macOS compatibility
         '--noconfirm',
         '--clean',
         '--add-data=src/styles.py:src',
