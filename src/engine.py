@@ -34,12 +34,12 @@ def process_subtitle(input_path, style_key="immersive_serif"):
         # Create new ASS style
         new_style = pysubs2.SSAStyle()
         # Ensure fontname is a single string and handle potential fallback
-        font_name = style_config.font_name.split(",")[0].strip()
+        font_name = str(style_config.font_name).split(",")[0].strip()
         new_style.fontname = font_name
-        new_style.fontsize = style_config.font_size
+        new_style.fontsize = float(style_config.font_size)
         def parse_ass_color(color_str):
             # &HAABBGGRR or &HBBGGRR
-            c = color_str.replace("&H", "")
+            c = str(color_str).replace("&H", "")
             if len(c) == 8:
                 a, b, g, r = int(c[0:2], 16), int(c[2:4], 16), int(c[4:6], 16), int(c[6:8], 16)
             elif len(c) == 6:
@@ -50,10 +50,10 @@ def process_subtitle(input_path, style_key="immersive_serif"):
 
         new_style.primarycolor = parse_ass_color(style_config.primary_color)
         new_style.outlinecolor = parse_ass_color(style_config.outline_color)
-        new_style.outline = style_config.outline_width
-        new_style.shadow = style_config.shadow_width
-        new_style.bold = style_config.bold
-        new_style.marginv = style_config.margin_v
+        new_style.outline = float(style_config.outline_width)
+        new_style.shadow = float(style_config.shadow_width)
+        new_style.bold = bool(style_config.bold)
+        new_style.marginv = int(style_config.margin_v)
         
         # Add style to subtitle object
         style_name = "CustomStyle"
