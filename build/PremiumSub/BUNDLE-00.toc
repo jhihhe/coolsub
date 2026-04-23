@@ -1,3 +1,0 @@
-([('PremiumSub',
-   '/Users/mac/Pictures/工作/其他/trae_sub/dist/PremiumSub',
-   'EXECUTABLE')],)

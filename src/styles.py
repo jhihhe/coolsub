@@ -32,71 +32,71 @@ class SubtitleStyle:
 
 STYLES = {
     "immersive_serif": SubtitleStyle(
-        name="沉浸宋体 (Immersive Serif)",
-        font_name="Songti SC",
-        font_size=60,
+        name="沉浸苹方 (Immersive PingFang)",
+        font_name="PingFang SC",
+        font_size=56,
         primary_color="&H00E8E8E8", # 柔和灰白
         outline_color="&H00000000",
-        outline_width=2.4,
+        outline_width=2.0,
         shadow_width=0,
-        margin_v=120,
-        description="极致克制，如阅读纸质书般的电影质感"
+        margin_v=50, # 适配 21:9 底部黑边位置
+        description="极致克制，苹方字体带来的现代电影感"
     ),
     "modern_minimal": SubtitleStyle(
         name="现代极简 (Modern Minimalist)",
         font_name="PingFang SC",
-        font_size=54,
+        font_size=52,
         primary_color="&H00FFFFFF",
         outline_color="&H40000000", # 半透明描边
-        outline_width=3.0,
+        outline_width=2.5,
         shadow_width=0,
         bold=True,
-        margin_v=100,
+        margin_v=45,
         description="清爽利落，适合现代剧集与纪录片"
     ),
     "classic_cinema": SubtitleStyle(
         name="经典影院 (Classic Cinematic)",
-        font_name="Heiti SC",
-        font_size=66,
+        font_name="PingFang SC",
+        font_size=60,
         primary_color="&H0000E6FF", # 经典电影淡黄
         outline_color="&H00000000",
-        outline_width=4.5,
-        shadow_width=3.0,
-        margin_v=90,
+        outline_width=4.0,
+        shadow_width=2.0,
+        margin_v=40,
         description="怀旧复古，浓郁的胶片电影氛围"
     ),
     "netflix_orange": SubtitleStyle(
         name="网飞橙 (Netflix Orange)",
         font_name="PingFang SC",
-        font_size=60,
+        font_size=56,
         primary_color="&H000088FF", # Netflix Orange
         outline_color="&H00000000",
-        outline_width=3.6,
+        outline_width=3.0,
         shadow_width=0,
         bold=True,
-        margin_v=110,
+        margin_v=50,
         description="Netflix 标志性橙色，高辨识度与现代感"
     ),
     "doc_yellow": SubtitleStyle(
         name="纪实金黄 (Documentary Yellow)",
         font_name="PingFang SC",
-        font_size=57,
+        font_size=54,
         primary_color="&H0000CCFF", # 经典纪录片黄
         outline_color="&H00000000",
-        outline_width=3.0,
-        shadow_width=3.0,
-        margin_v=100,
+        outline_width=2.5,
+        shadow_width=2.0,
+        margin_v=45,
         description="经典 BBC/国家地理纪录片风格，专业且醒目"
     ),
     "midnight_ghost": SubtitleStyle(
         name="深夜幽灵 (Midnight Ghost)",
-        font_name="Songti SC",
-        font_size=63,
+        font_name="PingFang SC",
+        font_size=58,
         primary_color="&H00DB7093", # 淡淡的紫色
         outline_color="&H00330033",
-        outline_width=1.5,
-        shadow_width=9.0,
-        margin_v=130,
+        outline_width=1.0,
+        shadow_width=8.0,
+        margin_v=60,
         description="幽暗深邃的紫色调，适合悬疑或深夜剧集"
     )
 }
