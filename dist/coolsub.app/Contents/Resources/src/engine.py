@@ -63,10 +63,15 @@ def process_subtitle(input_path, style_key="immersive_serif"):
         for line in subs:
             line.style = style_name
             # Adjust bilingual ratio (assuming newline separates Chinese and English)
-            # Scaling English part to 0.75 of Chinese part
+            # Scaling English part to 0.85 of Chinese part to ensure readability
             if "\\N" in line.text:
+                # Remove any existing scaling tags to avoid nesting
+                import re
+                line.text = re.sub(r'\{\\fscx\d+\\fscy\d+\}', '', line.text)
+                
                 parts = line.text.split("\\N", 1)
-                line.text = f"{parts[0]}\\N{{\\fscx75\\fscy75}}{parts[1]}"
+                # Use 85% scale for English to make it clearly visible but subordinate to Chinese
+                line.text = f"{parts[0]}\\N{{\\fscx85\\fscy85}}{parts[1]}"
             
         # Generate output path
         base, _ = os.path.splitext(input_path)
