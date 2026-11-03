@@ -1,3 +1,13 @@
+<!-- readme-visuals:header:start -->
+<p align="center"><img src="readme-assets/banner.svg" alt="coolsub — Turn subtitle files into styled ASS subtitles" width="100%"></p>
+
+<p align="center">
+  <a href="https://github.com/jhihhe/coolsub/commits/main"><img src="https://img.shields.io/github/last-commit/jhihhe/coolsub?style=flat-square&amp;color=fb923c" alt="Last commit"></a>
+  <a href="https://github.com/jhihhe/coolsub/stargazers"><img src="https://img.shields.io/github/stars/jhihhe/coolsub?style=flat-square&amp;color=fb923c" alt="GitHub stars"></a>
+  <a href="https://github.com/jhihhe"><img src="https://img.shields.io/badge/Maintainer-%40Jhih%20he-fb923c?style=flat-square" alt="Maintainer: @Jhih he"></a>
+</p>
+<!-- readme-visuals:header:end -->
+
 <div align="center">
   <h1>coolsub</h1>
   <p><strong>Premium Subtitle Style Transformer</strong></p>
@@ -6,8 +16,8 @@
     <a href="https://github.com/jhihhe/coolsub/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/jhihhe/coolsub?style=for-the-badge&color=blue" alt="License">
     </a>
-    <img src="https://img.shields.io/badge/Platform-macOS-000000🔍搜 macOS-000000?style=for-the-badge&logo=apple" alt="Platform">
-    <img src="https://img.shields.io/badge/Language-Python-3776🔍搜 Python-3776🔍搜 Python-3776🔍搜 Python-3776AB?style=for-the-badge&logo=python" alt="Language">
+    <img src="https://img.shields.io/badge/Platform-macOS-000000?style=for-the-badge&logo=apple" alt="Platform">
+    <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python" alt="Language">
     <img src="https://img.shields.io/badge/UI-PySide6-41CD52?style=for-the-badge&logo=qt" alt="UI Framework">
   </p>
 
@@ -21,6 +31,30 @@
 ---
 
 **coolsub** is a premium subtitle styling tool designed for users who seek the ultimate cinematic experience. It transforms common subtitle files (SRT, VTT, ASS, etc.) into ASS subtitles with high-end typography and cinematic visual styles.
+
+<!-- readme-visuals:overview:start -->
+
+## At a glance
+
+<table>
+<tr>
+<td width="33%"><strong>Subtitle conversion</strong><br><br>Convert SRT, VTT and ASS inputs to styled ASS subtitles.</td>
+<td width="33%"><strong>Styles and preview</strong><br><br>Choose a built-in style and preview before conversion.</td>
+<td width="33%"><strong>Batch drag and drop</strong><br><br>Drop multiple files and write results to the source folder.</td>
+</tr>
+</table>
+
+### Workflow overview
+
+```mermaid
+flowchart LR
+    S0["Drop subtitle files"] --> S1
+    S1["Choose a style"] --> S2
+    S2["Preview appearance"] --> S3
+    S3["Generate ASS subtitles"]
+```
+
+<!-- readme-visuals:overview:end -->
 
 ## ✨ Features
 

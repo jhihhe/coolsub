@@ -1,3 +1,13 @@
+<!-- readme-visuals:header:start -->
+<p align="center"><img src="readme-assets/banner.svg" alt="coolsub — Turn subtitle files into styled ASS subtitles" width="100%"></p>
+
+<p align="center">
+  <a href="https://github.com/jhihhe/coolsub/commits/main"><img src="https://img.shields.io/github/last-commit/jhihhe/coolsub?style=flat-square&amp;color=fb923c" alt="Last commit"></a>
+  <a href="https://github.com/jhihhe/coolsub/stargazers"><img src="https://img.shields.io/github/stars/jhihhe/coolsub?style=flat-square&amp;color=fb923c" alt="GitHub stars"></a>
+  <a href="https://github.com/jhihhe"><img src="https://img.shields.io/badge/Maintainer-%40Jhih%20he-fb923c?style=flat-square" alt="Maintainer: @Jhih he"></a>
+</p>
+<!-- readme-visuals:header:end -->
+
 <div align="center">
   <h1>coolsub</h1>
   <p><strong>高级字幕视觉风格转换器 | Premium Subtitle Style Transformer</strong></p>
@@ -6,8 +16,8 @@
     <a href="https://github.com/jhihhe/coolsub/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/jhihhe/coolsub?style=for-the-badge&color=blue" alt="License">
     </a>
-    <img src="https://img.shields.io/badge/Platform-macOS-000000🔍搜 macOS-000000?style=for-the-badge&logo=apple" alt="Platform">
-    <img src="https://img.shields.io/badge/Language-Python-3776🔍搜 Python-3776🔍搜 Python-3776🔍搜 Python-3776AB?style=for-the-badge&logo=python" alt="Language">
+    <img src="https://img.shields.io/badge/Platform-macOS-000000?style=for-the-badge&logo=apple" alt="Platform">
+    <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python" alt="Language">
     <img src="https://img.shields.io/badge/UI-PySide6-41CD52?style=for-the-badge&logo=qt" alt="UI Framework">
   </p>
 
@@ -21,6 +31,30 @@
 ---
 
 **coolsub** 是一款专为追求极致观影体验的用户设计的字幕美化工具。它能将普通的字幕文件（SRT, VTT, ASS等）一键转换为具有电影质感、高级排版的 ASS 字幕。
+
+<!-- readme-visuals:overview:start -->
+
+## 项目速览
+
+<table>
+<tr>
+<td width="33%"><strong>字幕转换</strong><br><br>将 SRT、VTT、ASS 等输入转换为 ASS 字幕。</td>
+<td width="33%"><strong>风格与预览</strong><br><br>内置风格选择，转换前查看效果。</td>
+<td width="33%"><strong>批量拖放</strong><br><br>支持多文件拖放，在源文件夹生成结果。</td>
+</tr>
+</table>
+
+### 流程概览
+
+```mermaid
+flowchart LR
+    S0["拖入字幕"] --> S1
+    S1["选择风格"] --> S2
+    S2["预览效果"] --> S3
+    S3["生成 ASS 字幕"]
+```
+
+<!-- readme-visuals:overview:end -->
 
 ## ✨ 特性
 
